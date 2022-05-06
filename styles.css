@@ -51,8 +51,16 @@ html {
   transform: rotateZ(-25deg);
   animation: a 10s infinite;
 }
+#a div {
+  background: url('images/game-designs.png');
+  background-size: cover;
+}
 #b {
   animation: b 10s infinite;
+}
+#b div {
+  background: url('images/game-designs (3).png');
+  background-size: cover;
 }
 #c {
   right: 8%;
@@ -60,26 +68,29 @@ html {
   transform: rotateZ(25deg);
   animation: c 10s infinite;
 }
+#c div {
+  background: url('images/game-designs (9).png');
+  background-size: cover;
+}
 @keyframes a {
-  0% {opacity: 0; transform: rotateZ(155deg); top: 107%;}
-  20% {opacity: 1; transform: rotateZ(335deg); top: 7%;}
-  80% {opacity: 1; transform: rotateZ(335deg); top: 7%;}
-  100% {opacity: 0; transform: rotateZ(153deg); top: 107%;}
+  0% {transform: rotateZ(155deg); top: 107%;}
+  20% {transform: rotateZ(335deg); top: 7%;}
+  80% {transform: rotateZ(335deg); top: 7%;}
+  100% {transform: rotateZ(153deg); top: 107%;}
 }
 @keyframes b {
-  0% {opacity: 0; transform: rotateZ(180deg); top: 100%;}
-  20% {opacity: 1; transform: rotateZ(360deg); top: 0%;}
-  80% {opacity: 1; transform: rotateZ(360deg); top: 0%;}
-  100% {opacity: 0; transform: rotateZ(180deg); top: 100%;}
+  0% {transform: rotateZ(180deg); top: 100%;}
+  20% {transform: rotateZ(360deg); top: 0%;}
+  80% {transform: rotateZ(360deg); top: 0%;}
+  100% {transform: rotateZ(180deg); top: 100%;}
 }
 @keyframes c {
-  0% {opacity: 0; transform: rotateZ(205deg); top: 107%;}
-  20% {opacity: 1; transform: rotateZ(385deg); top: 7%;}
-  80% {opacity: 1; transform: rotateZ(385deg); top: 7%;}
-  100% {opacity: 0; transform: rotateZ(205deg); top: 107%;}
+  0% {transform: rotateZ(205deg); top: 107%;}
+  20% {transform: rotateZ(385deg); top: 7%;}
+  80% {transform: rotateZ(385deg); top: 7%;}
+  100% {transform: rotateZ(205deg); top: 107%;}
 }
 .inner {
-  background-color: white;
   height: 40vh;
   width: 25vh;
   border-radius: 4vh;
