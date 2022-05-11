@@ -1,8 +1,6 @@
 function cardChange() {
   const elements = document.getElementsByClassName('inner');
-  console.log(elements);
   for (i in elements) {
-    console.log(i);
     if (i > -1) {
       elements[i].style.backgroundImage = "url('images/game-designs (" + (Math.ceil(Math.random() *  14) - 1) + ").png')";
     };
@@ -11,4 +9,8 @@ function cardChange() {
     cardChange();
   }, 10000);
 };
+function logIn() {
+  document.getElementById('hidden').style.animation = 'float 1s 1 ease-in-out';
+  document.getElementById('hidden').style.bottom = '0%';
+}
 cardChange();
