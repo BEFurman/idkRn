@@ -172,6 +172,16 @@ html {
   font-weight: 100;
   font-size: 5vh;
 }
+#logInButton {
+  height: 10vh;
+  width: 15vw;
+  font-family: 'WorkSans';
+  font-size: 5vh;
+  border-radius: 5vh;
+  border: none;
+  background-color: #3A86FF;
+  color: white;
+}
 #signUp {
   border-radius: 5vh;
   width: 80vh;
@@ -182,6 +192,8 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  font-size: 5vh;
+  margin: 0;
 }
 #signUp h2 {
   font-size: 15vh;
@@ -195,6 +207,16 @@ html {
 #signUp input {
   font-weight: 100;
   font-size: 5vh;
+}
+#signUpButton {
+  height: 10vh;
+  width: 15vw;
+  font-family: 'WorkSans';
+  font-size: 5vh;
+  border-radius: 5vh;
+  border: none;
+  background-color: #3A86FF;
+  color: white;
 }
 input {
   font-family: 'WorkSans';
