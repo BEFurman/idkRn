@@ -1,5 +1,3 @@
-npm install firebase
-
 function cardChange() {
   const elements = document.getElementsByClassName('inner');
   for (i in elements) {
