@@ -5,24 +5,26 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Document</title>
     <link rel='stylesheet' href='styles.css'>
+    <script type='module' src='firebase.js'></script>
+    <script src='script.js'></script>
   </head>
   <body>
       <div id='hidden'>
         <div id='signUp'>
           <h2>Sign Up</h2>
           <p>Username</p>
-          <input></input>
+          <input class='deets'></input>
           <p>Password</p>
-          <input></input> <br>
+          <input class='deets'></input> <br>
           <button id='signUpButton'>Submit</button>
         </div>
         <div id='logIn'>
           <h2>Log In</h2>
           <p>Username</p>
-          <input></input>
+          <input class='deets' id='logInUn'></input>
           <p>Password</p>
-          <input></input> <br>
-          <button id='logInButton'>Submit</button>
+          <input class='deets' id='logInPw'></input> <br>
+          <button id='logInButton' onclick='submitButton()'>Submit</button>
         </div>
       </div>
       <div class='topBar'>
@@ -48,6 +50,5 @@
         </div>
         <h2 id='centerName'>what to put here?<h2>
       </div>
-    <script src='script.js'></script>
   </body>
 </html>

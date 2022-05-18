@@ -1,0 +1,26 @@
+{
+  "name": "idkrn",
+  "version": "1.0.0",
+  "description": "npm/firebase test",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BEFurman/idkRn.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "brando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BEFurman/idkRn/issues"
+  },
+  "homepage": "https://github.com/BEFurman/idkRn#readme",
+  "dependencies": {
+    "firebase": "^9.8.1"
+  }
+}

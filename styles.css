@@ -55,8 +55,8 @@ html {
   height: 100%;
 }
 .container {
-  height: 85%;
   background-image: url('images/background.png');
+  height: 85%;
   background-size: 85vh;
   display: flex;
   justify-content: space-around;
@@ -80,14 +80,12 @@ html {
   animation: a 10s infinite;
 }
 #a div {
-  background: url('images/game-designs.png');
   background-size: cover;
 }
 #b {
   animation: b 10s infinite;
 }
 #b div {
-  background: url('images/game-designs (3).png');
   background-size: cover;
 }
 #c {
@@ -97,7 +95,6 @@ html {
   animation: c 10s infinite;
 }
 #c div {
-  background: url('images/game-designs (9).png');
   background-size: cover;
 }
 @keyframes a {
@@ -148,7 +145,7 @@ html {
 }
 #logIn {
   border-radius: 5vh;
-  width: 80vh;
+  width: 40vw;
   height: 90vh;
   background-color: #009DDC;
   flex-grow: 100px;
@@ -156,12 +153,11 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-size: 5vh;
   margin: 0;
 }
 #logIn h2 {
-  font-size: 15vh;
-  margin: 5vh;
+  font-size: 12vh;
+  margin: 4vh;
 }
 #logIn p {
   font-weight: 100;
@@ -181,10 +177,11 @@ html {
   border: none;
   background-color: #3A86FF;
   color: white;
+  margin-top: 5vh;
 }
 #signUp {
   border-radius: 5vh;
-  width: 80vh;
+  width: 40vw;
   height: 90vh;
   background-color: #009DDC;
   flex-grow: 100px;
@@ -192,11 +189,10 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-size: 5vh;
   margin: 0;
 }
 #signUp h2 {
-  font-size: 15vh;
+  font-size: 12vh;
   margin: 5vh;
 }
 #signUp p {
@@ -217,6 +213,7 @@ html {
   border: none;
   background-color: #3A86FF;
   color: white;
+  margin-top: 5vh;
 }
 input {
   font-family: 'WorkSans';
