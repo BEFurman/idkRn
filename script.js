@@ -1,6 +1,4 @@
-import { app, db } from './firebase.js';
-import { collection, addDoc } from 'firebase/firestore';
-
+console.log(1);
 function cardChange() {
   const elements = document.getElementsByClassName('inner');
   for (i in elements) {
@@ -16,15 +14,17 @@ function logIn() {
   document.getElementById('hidden').style.animation = 'float 1s 1 ease-in-out';
   document.getElementById('hidden').style.bottom = '0%';
 }
-cardChange();
+setTimeout(function () {
+  cardChange();
+}, 1);
 
 function submitButton() {
-  var submittedUn = document.getElementById('logInUn');
-  var submittedPw = document.getElementById('logInPw');
-  let deets = document.getElementsByClassName('deets');
-  for (element in deets) {
-    element.value = '';
-  }
+  console.log('1');
+  var submittedUn = document.getElementById('logInUn').value;
+  var submittedPw = document.getElementById('logInPw').value;
+  console.log(submittedUn, submittedPw);
+  document.getElementById('logInUn').value = '';
+  document.getElementById('logInPw').value = '';
   const dbSubmit = () => {
     addDoc(loginInfo, {
       username: submittedUn,
