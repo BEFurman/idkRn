@@ -57,14 +57,18 @@ html {
 .container {
   background-image: url('images/background.png');
   height: 85%;
-  background-size: 85vh;
+  background-size: 20vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  animation: bgMove 100s infinite linear;
+}
+@keyframes bgMove {
+  from {background-position: right;}
+  to {background-position: left;}
 }
 .card {
   z-index: 2;
-  background-color: lightgreen;
   height: 45vh;
   width: 30vh;
   border-radius: 6vh;
@@ -72,6 +76,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: contain;
 }
 #a {
   left: 8%;
@@ -127,6 +132,12 @@ html {
   z-index: 2;
   font-size: 10vh;
   text-align: center;
+  background-color: #2A2D34;
+  border: 1vh black dashed;
+  border-radius: 100vh;
+  padding: 3vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 #hidden {
   bottom: 100%;
@@ -218,4 +229,19 @@ html {
 input {
   font-family: 'WorkSans';
   text-align: center;
+}
+.right {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guild {
+  display: flex;
+}
+.guilds {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
 }
